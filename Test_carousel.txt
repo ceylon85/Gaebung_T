@@ -1,0 +1,46 @@
+	<div class="col-md-8">
+			<!-- bootstrap 표준으로, 하나의 row를 다 차지한다는 의미라고 생각하면 됨-->
+
+			<div class="carousel slide" id="myCarousel" data-ride="carousel">
+				<ul class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<!-- data-slide-to 배열과 같은 개념, 0이면 첫 화면 -->
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ul>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<!-- active option은 페이지 들어가자마자 처음으로 뜨는 캐러셀-->
+						<img src="resource/img/img1.jpg" class="w-100" alt="job">
+						<!-- w-100은 width의 100퍼센트를 다 차지한다는 의미, 없으면 사진 본연의 크기가 나옴 -->
+						<div class="carousel-caption">
+							<h1></h1>
+							<p></p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="resource/img/dog_carousel.jpg" class="w-100" alt="dog">
+						<div class="carousel-caption">
+							<h1>멍</h1>
+							<p>멍멍멍</p>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="resource/img/dog_cat_carousel.jpg" class="w-100"
+							alt="dog_cat">
+						<div class="carousel-caption">
+							<h1>멍냥</h1>
+							<p>멍냥멍냥</p>
+							<!-- 사진 위에 캡션으로 들어감 -->
+						</div>
+					</div>
+				</div>
+
+				<a href="#myCarousel" class="carousel-control-prev"
+					data-slide="prev"> <span class="carousel-control-prev-icon"></span>
+					<!-- 옆으로 생기는 <> 아이콘워낙 많이 쓰는 아이콘이라 클래스로 Bootstrap이 제공하고 있음-->
+				</a> <a href="#myCarousel" class="carousel-control-next"
+					data-slide="next"> <span class="carousel-control-next-icon"></span>
+				</a>
+			</div>
+		</div>
