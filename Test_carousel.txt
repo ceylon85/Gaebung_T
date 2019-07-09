@@ -1,18 +1,19 @@
+	//Pull ÌÖåÏä§Ìä∏Ïö©
 	<div class="col-md-8">
-			<!-- bootstrap «•¡ÿ¿∏∑Œ, «œ≥™¿« row∏¶ ¥Ÿ ¬˜¡ˆ«—¥Ÿ¥¬ ¿«πÃ∂Û∞Ì ª˝∞¢«œ∏È µ -->
+			<!-- bootstrap ÌëúÏ§ÄÏúºÎ°ú, ÌïòÎÇòÏùò rowÎ•º Îã§ Ï∞®ÏßÄÌïúÎã§Îäî ÏùòÎØ∏ÎùºÍ≥† ÏÉùÍ∞ÅÌïòÎ©¥ Îê®-->
 
 			<div class="carousel slide" id="myCarousel" data-ride="carousel">
 				<ul class="carousel-indicators">
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-					<!-- data-slide-to πËø≠∞˙ ∞∞¿∫ ∞≥≥‰, 0¿Ã∏È √π »≠∏È -->
+					<!-- data-slide-to Î∞∞Ïó¥Í≥º Í∞ôÏùÄ Í∞úÎÖê, 0Ïù¥Î©¥ Ï≤´ ÌôîÎ©¥ -->
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
 				</ul>
 				<div class="carousel-inner">
 					<div class="carousel-item active">
-						<!-- active option¿∫ ∆‰¿Ã¡ˆ µÈæÓ∞°¿⁄∏∂¿⁄ √≥¿Ω¿∏∑Œ ∂ﬂ¥¬ ƒ≥∑Øºø-->
+						<!-- active optionÏùÄ ÌéòÏù¥ÏßÄ Îì§Ïñ¥Í∞ÄÏûêÎßàÏûê Ï≤òÏùåÏúºÎ°ú Îú®Îäî Ï∫êÎü¨ÏÖÄ-->
 						<img src="resource/img/img1.jpg" class="w-100" alt="job">
-						<!-- w-100¿∫ width¿« 100∆€ºæ∆Æ∏¶ ¥Ÿ ¬˜¡ˆ«—¥Ÿ¥¬ ¿«πÃ, æ¯¿∏∏È ªÁ¡¯ ∫ªø¨¿« ≈©±‚∞° ≥™ø» -->
+						<!-- w-100ÏùÄ widthÏùò 100ÌçºÏÑºÌä∏Î•º Îã§ Ï∞®ÏßÄÌïúÎã§Îäî ÏùòÎØ∏, ÏóÜÏúºÎ©¥ ÏÇ¨ÏßÑ Î≥∏Ïó∞Ïùò ÌÅ¨Í∏∞Í∞Ä ÎÇòÏò¥ -->
 						<div class="carousel-caption">
 							<h1></h1>
 							<p></p>
@@ -21,24 +22,24 @@
 					<div class="carousel-item">
 						<img src="resource/img/dog_carousel.jpg" class="w-100" alt="dog">
 						<div class="carousel-caption">
-							<h1>∏€</h1>
-							<p>∏€∏€∏€</p>
+							<h1>Î©ç</h1>
+							<p>Î©çÎ©çÎ©ç</p>
 						</div>
 					</div>
 					<div class="carousel-item">
 						<img src="resource/img/dog_cat_carousel.jpg" class="w-100"
 							alt="dog_cat">
 						<div class="carousel-caption">
-							<h1>∏€≥…</h1>
-							<p>∏€≥…∏€≥…</p>
-							<!-- ªÁ¡¯ ¿ßø° ƒ∏º«¿∏∑Œ µÈæÓ∞® -->
+							<h1>Î©çÎÉ•</h1>
+							<p>Î©çÎÉ•Î©çÎÉ•</p>
+							<!-- ÏÇ¨ÏßÑ ÏúÑÏóê Ï∫°ÏÖòÏúºÎ°ú Îì§Ïñ¥Í∞ê -->
 						</div>
 					</div>
 				</div>
 
 				<a href="#myCarousel" class="carousel-control-prev"
 					data-slide="prev"> <span class="carousel-control-prev-icon"></span>
-					<!-- ø∑¿∏∑Œ ª˝±‚¥¬ <> æ∆¿Ãƒ‹øˆ≥´ ∏π¿Ã æ≤¥¬ æ∆¿Ãƒ‹¿Ã∂Û ≈¨∑°Ω∫∑Œ Bootstrap¿Ã ¡¶∞¯«œ∞Ì ¿÷¿Ω-->
+					<!-- ÏòÜÏúºÎ°ú ÏÉùÍ∏∞Îäî <> ÏïÑÏù¥ÏΩòÏõåÎÇô ÎßéÏù¥ Ïì∞Îäî ÏïÑÏù¥ÏΩòÏù¥Îùº ÌÅ¥ÎûòÏä§Î°ú BootstrapÏù¥ Ï†úÍ≥µÌïòÍ≥† ÏûàÏùå-->
 				</a> <a href="#myCarousel" class="carousel-control-next"
 					data-slide="next"> <span class="carousel-control-next-icon"></span>
 				</a>
